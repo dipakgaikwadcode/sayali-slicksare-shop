@@ -1,0 +1,188 @@
+/* ✅ @font-face must be at TOP — outside everything */
+@font-face {
+  font-family: 'Vegawanty';
+  src: url('font/Vegawanty.ttf') format('truetype');
+}
+
+
+
+
+/* default white icons */
+.material-symbols-outlined {
+  color: white;
+  transition: color 0.5s ease;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Vegawanty', serif ;/* ✅ use it here */
+  font-size: 40px !important;
+  letter-spacing: 1.5px;
+  color: palevioletred !important;
+  transition: color 0.5s ease;  /* ✅ fixed "easy" typo too */
+}
+
+.nav-link {
+  font-family: "Young Serif", serif;
+  color: white !important;
+  transition: color 0.5s ease;
+}
+
+/* scrolled state */
+.navbar.scrolled {
+  background-color: white !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar.scrolled .material-symbols-outlined {
+  color: black !important;
+}
+
+.navbar.scrolled .nav-link {
+  color: black !important;
+}
+
+.navbar.scrolled .navbar-brand {
+  color: black !important;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease;
+}
+
+
+.card {
+  height: 159px;
+  width: 212px;
+  padding: 15px;
+  margin-top: 10px;
+   min-width: 200px;
+  
+}
+
+.card-img-top {
+  border: 1px solid gold;
+  padding: 2px;
+}
+.card-title {
+  font-size: 15px;
+  opacity: 50%;
+}
+
+.question1 {
+  font-family: 'Vegawanty', serif ;/* ✅ use it here */
+  font-size: 30px !important;
+  letter-spacing: 1px;
+  margin-top: -5px !important;
+  padding-left: 20px !important;
+}
+.question12 {
+  color: #7E2E24;
+  
+}
+
+.card-body1 {
+  margin-bottom: 0% !important;
+}
+
+.scrollerbar {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollerbar::-webkit-scrollbar {
+  display: none;
+}
+
+ .container,
+.container *{
+  box-sizing:border-box;
+  transition:all .5s;
+}
+
+.container .note{
+  position:absolute;
+  left:10px;
+  top:10px;
+  text-transform:uppercase;
+  color:#aaa;
+  font-weight:700;
+  font-family:'Rajdhani', sans-serif;
+}
+
+/* card-new arrival */
+.card-new-arrival {
+  height: 722px;
+  width: 428px;
+}
+
+/* view button color */
+.btn-light {
+  background-color: #CFB3AF !important;
+
+}
+
+/* eye-view  */
+
+.eye {
+   transition: transform 0.15s ease-in-out;
+}
+
+.eye1:hover {
+    transform: rotate(360deg);
+}
+
+.card-category {
+  
+}
+
+
+
+/* card-new arrival - photo change */
+.main-img, .hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+    transition: opacity 0.4s ease;
+}
+
+.hover-img {
+  opacity: 0;
+}
+
+.card:hover .hover-img {
+ opacity: 1;
+}
+
+@keyframes blinkIn {
+  0%   { opacity: 0; }
+  25%  { opacity: 1; }
+  50%  { opacity: 0; }
+  75%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+/* view button apper after hover */
+
+
+
+.view {
+opacity: 0;
+ transition: opacity 0.3s ease;
+}
+
+ .img-hover-zone:hover .view {
+opacity: 1; 
+} 
