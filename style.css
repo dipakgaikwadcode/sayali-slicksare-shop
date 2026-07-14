@@ -1,9 +1,12 @@
-/* ✅ @font-face must be at TOP — outside everything */
-@font-face {
+/* @font-face must be at TOP — outside everything
+ @font-face {
   font-family: 'Vegawanty';
   src: url('font/Vegawanty.ttf') format('truetype');
-}
+} */
 
+.body {
+   font-family: "Poppins", sans-serif !important;
+}
 
 
 
@@ -17,11 +20,11 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'Vegawanty', serif ;/* ✅ use it here */
+  /* font-family: 'Vegawanty', serif ; use it here */
   font-size: 40px !important;
   letter-spacing: 1.5px;
   color: palevioletred !important;
-  transition: color 0.5s ease;  /* ✅ fixed "easy" typo too */
+  transition: color 0.5s ease;  /*  fixed "easy" typo too */
 }
 
 .nav-link {
@@ -79,7 +82,7 @@
 }
 
 .question1 {
-  font-family: 'Vegawanty', serif ;/* ✅ use it here */
+  /* font-family: 'Vegawanty', serif ;✅ use it here */
   font-size: 30px !important;
   letter-spacing: 1px;
   margin-top: -5px !important;
@@ -118,7 +121,7 @@
   text-transform:uppercase;
   color:#aaa;
   font-weight:700;
-  font-family:'Rajdhani', sans-serif;
+  /* font-family:'Rajdhani', sans-serif; */
 }
 
 /* card-new arrival */
