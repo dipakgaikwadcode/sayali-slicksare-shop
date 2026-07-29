@@ -82,7 +82,7 @@
 }
 
 .question1 {
-  /* font-family: 'Vegawanty', serif ;✅ use it here */
+  /* font-family: 'Vegawanty'*/
   font-size: 30px !important;
   letter-spacing: 1px;
   margin-top: -5px !important;
@@ -152,7 +152,7 @@
 
 
 
-/* card-new arrival - photo change */
+/* ---------------------card-new arrival - photo change---------------------------------------------- */
 .main-img, .hover-img {
   position: absolute;
   top: 0;
@@ -177,7 +177,7 @@
   100% { opacity: 1; }
 }
 
-/* view button apper after hover */
+/*------------------ view button apper after hover------------------------ */
 
 
 
@@ -198,11 +198,37 @@ opacity: 1;
 
 
 /* 
-STEAL THE DEAL  */
 
+------------------STEAL THE DEAL------------------------------------------  */
+ .heading-for-steal-the-deal {
+  text-align: center !important;
+  width: 100%;
+  text-decoration: none;
+  font-size: 18px;
+  color: #7E2E24;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+ }
+
+.card-clean {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  margin-top: 15px !important;
+ }
 .cardofstelofdeal {
-  height: 400px !important;
-  overflow: hidden;
+  width: 260px !important;
+  height: 350px !important;
+  overflow:hidden;
+  padding: 0px;
+  border: none;
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+  border-bottom-left-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+
+  
 }
 .cardofstelofdealimg {
   width: 100%;
